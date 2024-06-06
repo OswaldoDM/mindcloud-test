@@ -40,7 +40,7 @@ const Steps = () => {
       <div
         ref={stepsDivRef}        
         className={`flex flex-col space-y-4 font-sans font-medium text-sm 
-        tracking-wide px-4 md:px-0 w-[500px]`}
+        tracking-wide px-4 md:px-0 w-[600px]`}
       >
         {stepsData.map((step) => (
           <StepsButton
