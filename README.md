@@ -5,8 +5,7 @@ modern apps.😎
 
 When it comes to the Steps component, I think it was a good idea to add a few more keys to each object of the data compare to the ones you mentioned on the email. I did this thinking that this data might grow at some point, and I really like to avoid conditional rendering when possible. In this way, we will be able to add more objects there with different icons very easy.
 
-I'm also using a custom hook that I have for cases when the user already clicked something but maybe he wants
-you see the initial UI again by clicking outside of the element. I'm leaving an explination at the end in case you want to check it. 
+I'm also using a custom hook that I have for cases when the user already clicked something but maybe he wants to see the initial UI again by clicking outside of the element. I'm leaving an explination at the end in case you want to check it. 
 
 The StepsButton component is a very simple component that receives a few props. Nothing fancy there.🙂
 
